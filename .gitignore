@@ -1,0 +1,28 @@
+# ignore all .log files
+**/*.log
+**/*.txt
+**/*.md
+**/*.csv
+
+# ignore DiUNET_outputs folders
+**/DiUNET_outputs/
+DiUNET_outputs/
+
+# ignore all *output/ folders
+**/*output/
+*output/
+**/*outputs/
+
+# ignore all .pyc files
+**/*.pyc
+
+# ignore all __pycache__ folders
+**/__pycache__/
+
+# ignore temo folder
+**/temp/
+temp/
+
+# ignore reference_codes folder
+**/reference_codes/
+reference_codes/
