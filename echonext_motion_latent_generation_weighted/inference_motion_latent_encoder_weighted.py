@@ -238,13 +238,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--checkpoint_path",
         type=str,
-        default='jzheng12/Codes/ECG_MeshHeart/output/echonext_motion_latent_generation_weighted/checkpoints_20260118_152930/checkpoint_epoch_45.ckpt',
+        default='jzheng12/Codes/ECG_MeshHeart/output/echonext_motion_latent_generation_weighted/checkpoints_20260118_152930_alltrained/checkpoint_epoch_23.ckpt',
         help="Path to trained Encoder model checkpoint (.ckpt file)",
     )
     parser.add_argument(
         "--output_path",
         type=str,
-        default="ukb/jz_meshheart/echonext_motion_latents_16Jan26/echonext_splits/inference/all_echonext_latent_ep45.csv",
+        default="ukb/jz_meshheart/echonext_motion_latents_16Jan26/echonext_splits/inference/all_echonext_latent_ep23.csv",
         help="Path to save predictions CSV file",
     )
 
@@ -284,7 +284,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--num_workers",
         type=int,
-        default=1,
+        default=0,
         help="Number of data loading workers",
     )
     parser.add_argument(
